@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="owl-carousel">
+        <div> <img class="img-fluid" src="img/seiko.png" alt="...">
+            <div class="carousel-caption">
+                Электронные часы, в памяти которых можно сохранять заметки.
+            </div>
+        </div>
+        <div> <img class="img-fluid" src="img/casio-watch-2.png" alt="...">
+            <div class="carousel-caption">
+                Часы, снабжённые инфракрасным портом.
+            </div>
+        </div>
+        <div> <img class="img-fluid" src="img/Samsung-SPH-WP10.png" alt="...">
+            <div class="carousel-caption">
+                Часы, которые работали как мобильный телефон.
+            </div>
+        </div>
+        <div> <img class="img-fluid" src="img/Sony-LiveView.png" alt="...">
+            <div class="carousel-caption">
+                Sony Ericsson LiveView
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $(function() {
+            // Owl Carousel
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+                items: 3,
+                margin: 10,
+                loop: true,
+                nav: true
+            });
+        });
+    </script>
+</body>
+
+</html>
